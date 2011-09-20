@@ -51,7 +51,7 @@ public class Main {
 
 	private static void choisirClient(MagasinService service, BufferedReader in) throws Exception {
 		List<DoClient> clients = service.getListClient();
-
+//test de Git
 		System.out.println("Les clients existants sont :");
 		for (DoClient doClient: clients) {
 			System.out.println("\t" + doClient.getIdClient() + " - "
